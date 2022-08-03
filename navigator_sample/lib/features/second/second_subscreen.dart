@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class SecondFirstScreen extends StatelessWidget {
-  const SecondFirstScreen({Key? key}) : super(key: key);
+class SecondSubScreen extends StatelessWidget {
+  const SecondSubScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Screen 2-1'),
+        title: const Text('Second sub screen'),
       ),
       body: Center(
         child: Column(
